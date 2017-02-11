@@ -1,0 +1,71 @@
+*{
+margin:0;
+}
+
+header {
+  height: 4rem;
+  background-color:#033048;
+  color:white;
+}
+
+body {
+  font-family:  'Open Sans', sans-serif;
+}
+
+
+nav ul li {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0 1rem;
+  color: #f9e42e;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  padding: 1rem 0;
+}
+
+main {
+  width: 70%;
+  padding-right: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+aside {
+  width: 30%;
+}
+
+aside ul {
+  list-style-type: none;
+  padding:0;
+
+}
+.target {
+  display: inline;
+  color: grey;
+  font-size: 2.5rem;
+  float: left;
+  padding-right: 0.5rem;
+  line-height: 1;
+}
+
+.call-to-action {
+  height: 2rem;
+  background-color: #f9e42e;
+}
