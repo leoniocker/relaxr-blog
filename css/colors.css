@@ -8,4 +8,17 @@
 
 .yellow-font {
   color: #f9e42e;
+  font-size: 2rem;
+}
+
+.background-color {
+  background-color: #f0efef;
+}
+
+.almost-black {
+  background-color: #121212;
+}
+
+footer p {
+  color: #fff;
 }
