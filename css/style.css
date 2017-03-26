@@ -47,6 +47,24 @@ footer {
   padding: 2rem;
 }
 
+main {
+  width: 70%;
+  padding-right: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+aside {
+  width: 30%;
+}
+
+aside ul {
+  list-style-type: none;
+  padding:0;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 800px;
@@ -64,31 +82,14 @@ footer {
   padding: 1rem 0;
 }
 
-.action {
+.read-more {
   display: flex;
   justify-content: flex-end;
   padding: 1rem 0;
   font-weight: bold;
+  cursor: pointer;
 }
 
-main {
-  width: 70%;
-  padding-right: 2rem;
-}
-
-img {
-  width: 100%;
-}
-
-aside {
-  width: 30%;
-}
-
-aside ul {
-  list-style-type: none;
-  padding:0;
-
-}
 .target {
   display: inline;
   color: grey;
@@ -112,11 +113,8 @@ aside ul {
   padding: 12px 0;
   width: 250px;
   font-size: 20px;
-
-
   display: block;
   margin: 0 auto;
-
   color: #fff;
 }
 
